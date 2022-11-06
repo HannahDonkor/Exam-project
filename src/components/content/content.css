@@ -1,44 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://www.1001fonts.com/digital-7-font.html');
 body {
     background-color: rgb(215, 215, 215);
+    place-content: center;
 }
 
 .timer {
     /* border: 2px solid rgb(56, 56, 56); */
-    background-color: rgb(180, 170, 143);
-    color: white;
+    background-color: burlywood;
+    color: black;
     font-size: 26px;
+    font-family: digital-7;
     height: 10rem;
     width: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    margin-top: 5rem;
-    margin-left: 12rem;
+    margin: 3rem auto 0 auto;
+
+}
+
+.main {
+    height: 80vh;
+    width: 50vh;
+    background-color: rgb(131, 127, 127);
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 7px 7px 5px 0px rgb(50, 50, 50, 0.75);
+    margin: 7rem auto 5rem auto;
+    
 
 }
 
 .buttons-container {
-    margin-top: 2rem;
-    display: flex;
-    gap: 1rem; 
+    margin-top: 5rem;
+    display: block;
+    gap: 0.5rem; 
+    text-align: center;
 }
 
 .btn {
     cursor: pointer;
     background-color: black;
-    border-radius: 10%;
+    border-radius: 1rem;
     color: burlywood;
     font-size: 14px;
     font-weight: bold;
     border: none;
-    margin: 10px 10px;
-    padding: 10px 20px;
-    
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+ 
 }
 
 .btn:hover {
-    background-color: grey;
+    background-color: rgb(94, 90, 90);
 }
 
 .pop-up {
@@ -51,6 +68,6 @@ body {
 
 .bio {
     margin-top: 5rem;
-    font-family: 'Roboto', sans-serif;;
+    font-family: alconica;
 
 }
