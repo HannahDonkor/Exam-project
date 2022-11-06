@@ -15,7 +15,7 @@ const [customValue, setCustomValue] = useState()
 
 //decreases value by 1
     function decreaseCount(){
-        if (count==0){
+        if (count===0){
             return
         }
         setCount(prevValue => prevValue -1)
