@@ -1,3 +1,11 @@
 .error-page {
     margin-top: 7rem;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(135, 117, 94);
+
+}
+
+h3 {
+    color: black;
 }

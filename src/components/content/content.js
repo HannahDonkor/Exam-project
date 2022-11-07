@@ -20,7 +20,7 @@ const Content = () => {
             <button className='btn'onClick={setValueCount}>Set Score</button>
         </div>
         <div className={show ? 'active' : 'pop-up'}>
-            <input onChange={handleInput}/>
+            <input type="number" onChange={handleInput}/>
             <button onClick={handleCustomValue}>
                 Ok
             </button>
