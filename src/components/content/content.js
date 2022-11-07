@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './content.css';
 import useCounter from '../../hooks/useCounter';
 
